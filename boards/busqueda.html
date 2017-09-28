@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/busquedaScript.js"></script>
+    </head>
+    
+    <body>
+        
+        <ul id="barra">
+          <li><a href="home.html">Inicio</a></li>
+          <li><a class="active" href="busqueda.html">Búsqueda</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+        
+        <center><h1>Búsqueda</h1></center>
+        
+        <fieldset>
+            <center>Ingresa lo que estás buscando #</center>
+            <center><span id="errorBusqueda" style="color:red" class="hiddenElement">Ingresa un etiqueta para buscar</span></center>
+            <input type="text" id="etiquetaBuscar">
+            <center><input type="button" id="buscarEtiqueta" value="Buscar"></center>
+        </fieldset>
+        
+        <center><h1>Resultados</h1></center>
+        
+        <fieldset id="publicacionesEnBusqueda">
+            <center><span id="busquedasResultantes" style="color:gray">Realiza una búsqueda</span></center>
+        </fieldset>
+        
+    </body>
+    
+</html>

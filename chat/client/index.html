@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Chat</title>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script src="main.js"></script>
+
+        <style>
+            #messages{
+                width: 99%;
+                max-width: none;
+                height: 400px;
+                overflow-y: scroll;
+                border: 5px dashed deepskyblue;
+            }
+            
+            .messages{
+                margin: 20px;
+                padding: 5px;
+                border-radius: 5px;
+                border: 3px solid limegreen;
+                background-color: whitesmoke;
+                color: black;
+                font-family: sans-serif;
+            }
+            
+            #enviarMensaje{
+                background-color: white;
+                border: none;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                color: black;
+                border: 3px solid limegreen;
+            }
+
+            #enviarMensaje:hover {
+                background-color: limegreen;
+                color: white;
+            }
+            
+            #titulo{
+                font-family: sans-serif;
+            }
+            
+            input[type=text] {
+                border: 5px solid orange;
+                border-radius: 4px;
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                font-size:24px;
+            }
+            
+            #barra{
+                background-color: black;
+                margin: 0px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            ul>li {
+                display: inline;
+            }
+
+            li>a{
+                color: white;
+                text-decoration: none;
+                padding-left: 30px;
+            }
+            
+            #enviarMensaje{
+
+            }
+
+            .active{
+                background-color: #4CAF50;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+            
+            body{
+                font-family: Verdana;
+            }
+            
+            .hiddenElement{
+            	display: none;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        
+        <ul id="barra">
+          <li><a class="active" href="index.html">Chat</a></li>
+        </ul>
+        
+        <center><h1 id="titulo">Boards. Chat</h1></center>
+        <div id="messages"></div>
+        <center>
+            <form onsubmit="return addMessage(this);">
+                <span id="errorNickname" style="color:red; font-size:20px" class="hiddenElement">Teclea tu nickname</span>
+                <input type="text" id="nickname" placeholder="Escribe tu nombre..."/><br/>
+                <span id="errorText" style="color:red; font-size:20px" class="hiddenElement">Teclea tu mensaje</span>
+                <input type="text" id="text" placeholder="Escribe un mensaje..."/><br/>
+                <input type="submit" id="enviarMensaje" value="Enviar mensaje"/>
+            </form>
+        </center>
+    </body>
+</html>

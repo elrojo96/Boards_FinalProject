@@ -1,0 +1,255 @@
+#barraPrincipal{
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#barraInferior{
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+body{
+    font-family: Verdana;
+}
+
+fieldset{
+    border: 2px solid #dddddd;
+    margin: 50px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+legend{
+    text-align: center;
+}
+
+h6{
+    color: forestgreen;
+}
+
+#iniciaSesion{
+    background-color: #008CBA;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#irRegistro{
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#registrarse{
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#volverInicio{
+    background-color: #f44336;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#eliminarCookie{
+    background-color: hotpink;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#buscarEtiqueta{
+    background-color: purple;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#cerrarSesion{
+    background-color: red;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#publicar{
+    background-color: red;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#publicarPublicacion{
+    background-color: limegreen;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#volverApublicaciones{
+    background-color: deepskyblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#publicacionesLike{
+    background-color: deepskyblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+#volverPublicacionesPropias{
+    background-color: green;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+input[type=text] {
+    border: 2px dashed orange;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:24px;
+}
+
+input[type=password] {
+    border: 2px dashed orange;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:24px;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+}
+
+.hiddenElement{
+    display: none;
+}
+
+#barra{
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+ul>li {
+    display: inline;
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.publicacion{
+    border-left: 2px dashed deepskyblue;
+    border-right: 2px dashed deepskyblue;
+    border-bottom: 2px dashed deepskyblue;
+    border-top: 2px dashed deepskyblue;
+    padding: 10px;
+}
+
+.active{
+    background-color: #4CAF50;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#usuarioEnPerfil{
+    color: slategray;
+    font-size: 30px;
+}
+
+.like{
+    background-color: white;
+    color: black;
+    border: 2px solid deepskyblue;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+.like:hover{
+    background-color: deepskyblue;
+}
+
+.likeSelected{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: deepskyblue;
+}

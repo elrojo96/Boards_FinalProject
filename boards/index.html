@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boards.</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    
+    <body>
+        <h1 id="barraPrincipal">Boards.</h1>
+        
+        <fieldset id="seccionInicio">
+            <legend>Inicia Sesión</legend>
+            
+            <center>
+                Usuario:<br/>
+                <span id="usuarioError1" style="color:red" class="hiddenElement">Teclea tu nombre de usuario</span><br/>
+                <input type="text" id="usuario">
+                <br/>
+                Contraseña:<br/>
+                <span id="contrasenaError1" style="color:red" class="hiddenElement">Teclea tu contraseña</span><br/>
+                <input type="password" id="contrasena">
+            </center>
+
+            <center>
+                <br/>
+                <input type="checkbox" id="recuerdame" checked/>Recuerdame<br/>
+                <br/>
+                <input type="button" id="iniciaSesion" value="Inicia sesión"/>
+                <input type="button" id="irRegistro" value="Crea tu cuenta"/>
+                <input type="button" id="eliminarCookie" value="Eliminar datos"/>
+            </center>
+            
+        </fieldset>
+
+        <fieldset id="seccionRegistro" class="hiddenElement">
+            <legend>Registrate</legend>
+            
+            <center>
+                Nombre(s):<br/>
+                <span id="registroError1" style="color:red" class="hiddenElement">Teclea tu(s) nombres(s)</span><br/>
+                <input type="text" id="nombresRegistro">
+                <br/>
+                Apellidos:<br/>
+                <span id="registroError2" style="color:red" class="hiddenElement">Teclea tus apellidos(s)</span><br/>
+                <input type="text" id="apellidosRegistro">
+                <br/>
+                Nombre de usuario:<br/>
+                <span id="registroError3" style="color:red" class="hiddenElement">Teclea tus nombre de usuario</span><br/>
+                <input type="text" id="usuarioRegistro">
+                <br/>
+                Contraseña:<br/>
+                <span id="registroError4" style="color:red" class="hiddenElement">Teclea tu contraseña</span><br/>
+                <input type="password" id="contrasenaRegistro">
+            </center>
+            
+            <center>
+                <input type="button" id="registrarse" value="Registrarse"/>
+                <input type="button" id="volverInicio" value="Cancelar"/>
+            </center>
+            
+        </fieldset>
+        
+        <h6 id="barraInferior">Desarollo de Aplicaciones Web 2017</h6>
+        
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/homeScript.js"></script>
+        <!--<script type="text/javascript" src="js/checaLikes.js"></script>-->
+    </head>
+    
+    <body>
+        
+        <ul id="barra">
+          <li><a class="active" href="home.html">Inicio</a></li>
+          <li><a href="busqueda.html">Búsqueda</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+        
+        <div>
+            <center><h1>Publicaciones</h1></center>
+            <fieldset id="publicaciones">
+                
+            </fieldset>
+        </div>
+        
+        <div>
+            <fieldset id="creacionPublicacion" class="hiddenElement">
+                <legend>Crea una publicación</legend>
+                <p>
+                    Etiqueta #:<br/>
+                    <center><span id="registroError1" style="color:red" class="hiddenElement">Escribe una etiqueta.</span></center>
+                    <input type="text" id="etiquetaParaPublicar">
+                    Comentario:<br/>
+                    <center><span id="registroError2" style="color:red"  class="hiddenElement">Escribe comentario.</span></center>
+                    <input type="text" id="comentarioParaPublicar">
+                </p>
+                <center>
+                    <input type="button" id="publicarPublicacion" value="Publicar">
+                    <input type="button" id="volverApublicaciones" value="Volver">
+                </center>
+            </fieldset>
+        </div>
+        
+        <h6 id="barraInferior">
+            <center>
+                <input type="button" id="publicar" value="Crear publicación">
+            </center>
+        </h6>
+        
+    </body>
+    
+</html>
